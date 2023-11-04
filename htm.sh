@@ -8,7 +8,7 @@ if [ $# -eq 0 ]
     mkdir $NOME
     cp ~/skeletons/skeleton.html ./$NOME/index.html
     sed -i "s/Titolo/$NOME/g" ./$NOME/index.html
-    touch ./$NOME/style.css
+    cp ~/skeletons/skeleton.css ./$NOME/style.css
     touch ./$NOME/script.js
 fi
 
