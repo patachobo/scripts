@@ -10,6 +10,6 @@ if [ $# -eq 0 ]
     sed -i "s/Titolo/$NOME/g" ./$NOME/index.html
     cp ~/skeletons/skeleton.css ./$NOME/style.css
     touch ./$NOME/script.js
-    mkdir -p ./$NOME/assets/images
+    mkdir -p ./$NOME/img
 fi
 
