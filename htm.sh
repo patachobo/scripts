@@ -9,7 +9,7 @@ if [ $# -eq 0 ]
     cp ~/skeletons/skeleton.html ./$NOME/index.html
     sed -i "s/Titolo/$NOME/g" ./$NOME/index.html
     cp ~/skeletons/skeleton.css ./$NOME/style.css
-    touch ./$NOME/script.js
+    cp ~/skeletons/skeleton.js ./$NOME/main.js
     mkdir -p ./$NOME/img
 fi
 
